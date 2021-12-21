@@ -1,0 +1,31 @@
+﻿.tableFixHead {
+    overflow: auto;
+    height: 280px;
+}
+
+    .tableFixHead thead th {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: #8e24aa;
+        color: white;
+    }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+
+
+
+
+
+th, td {
+    padding: 8px 16px;
+}
+
+th {
+    background: #eee;
+}

@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Content/Pages/jquery-1.11.1.min.js"></script>
+<script src="~/Content/Pages/Product.js"></script>
+
+
+
+<div class="main-panel">
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header card-header-primary">
+                            <h4 class="card-title">Product</h4>
+                            <p class="card-category"></p>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            ProductName:
+                                            <input id="txtproductName" type="text" />
+                                            <br />
+
+                                            ProductCategory:
+                                            <input id="txtproductCategory" type="text" />
+                                            <br />
+
+                                            ProductPrice:
+                                            <input id="txtproductPrice" type="text" />
+                                            <br />
+                                            ProductDuration:
+                                            <input id="txtproductDuration" type="text" />
+                                            <br />
+                                            ProductImage:
+                                            <input id="txtproductImage" type="text" />
+                                            <br />
+
+                                            <button name="Button" type="submit" onclick="saveProd()" value="submit">submit</button>
+                                            </div>
+                                        </div>
+
+                                            <div class="col-md-4">
+                                                <div class="card card-profile">
+                                                </div>
+                                            </div>
+                                        </div>
+                                 </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+    </div>
+</div>
